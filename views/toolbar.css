@@ -118,7 +118,7 @@ div#kohana-debug-toolbar div#debug-toolbar {
 div#kohana-debug-toolbar div#debug-toolbar.debug-toolbar-align-center { left: auto; right: auto; }
 div#kohana-debug-toolbar div#debug-toolbar.debug-toolbar-align-right { right: 0; }
 div#kohana-debug-toolbar div#debug-toolbar.debug-toolbar-align-left { left: 0; }
-div#kohana-debug-toolbar div#debug-toolbar img { vertical-align: middle; }
+div#kohana-debug-toolbar div#debug-toolbar img { vertical-align: middle; display:inline;}
 div#kohana-debug-toolbar div#debug-toolbar ul.menu {
 	padding: 5px;
 	display: inline;
