@@ -390,12 +390,12 @@ abstract class Kohana_DebugToolbar {
 					ucfirst($group),
 					ucwords($benchmark['name']),
 					number_format($benchmark['total_time'], 3). ' s',
-					text::bytes($benchmark['total_memory']),
+					Text::bytes($benchmark['total_memory']),
 				);
 			}
 		}
 
-		$message = 'Application tooks '.number_format($total['total_time'], 3).' seconds and '.text::bytes($total['total_memory']).' memory';
+		$message = 'Application tooks '.number_format($total['total_time'], 3).' seconds and '.Text::bytes($total['total_memory']).' memory';
 
 		$firephp->fb(array($message, $table), FirePHP::TABLE);
 	}
